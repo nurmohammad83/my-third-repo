@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myId{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .one{
+           
+            margin: 20px;
+            border: 10px solid rgb(31, 242, 80);
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(226, 17, 17);
+            animation: one 5s infinite;
+        }
+        .tow{
+            text-align: center;
+            margin: 20px;
+            border: 10px solid rgb(78, 107, 107);
+            padding: 20px;
+            background-color: rgb(20, 134, 227);
+        }
+        .three{
+            flex-grow: 5;
+            text-align: center;
+            margin: 20px;
+            border: 10px solid rgb(12, 46, 20);
+            padding: 20px;
+            background-color: rgb(170, 212, 231);
+        }
+        @keyframes one {
+  50% {background-color: blue;}
+}
+    </style>
+</head>
+<body>
+    <div id="myId">
+    <div class="one">
+        <h1>This is a box model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quaerat incidunt debitis? Deleniti voluptatibus officia a odio incidunt suscipit eius expedita cumque aut, iste libero nostrum molestiae illo quo quaerat?<p>
+    </div>
+    <div class="tow">
+        <h1>This is a no2 model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quaerat incidunt debitis? Deleniti voluptatibus officia a odio incidunt suscipit eius expedita cumque aut, iste libero nostrum molestiae illo quo quaerat?<p>
+    </div>
+    <div class="three">
+        <h1>This is a no3 model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quaerat incidunt debitis? Deleniti voluptatibus officia a odio incidunt suscipit eius expedita cumque aut, iste libero nostrum molestiae illo quo quaerat?<p>
+    </div>
+</div>
+</body>
+</html>
